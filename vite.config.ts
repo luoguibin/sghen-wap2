@@ -6,6 +6,8 @@ import path from "path"
 export default defineConfig({
   plugins: [vue()],
 
+  base: './',
+
   resolve: {
     extensions: ['.js', '.vue', '.json', '.ts'],
     alias: {
