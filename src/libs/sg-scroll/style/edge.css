@@ -1,0 +1,41 @@
+.sg-edge {
+  display: none;
+  position: absolute;
+  z-index: 99;
+  background-color: rgba(78, 124, 194, 0.3);
+  border: 1px solid rgba(70, 131, 180, 0.7);
+}
+
+.sg-edge-column {
+  right: 0;
+  left: 0;
+  width: 100%;
+  transition: height 300ms, height 300ms;
+}
+
+.sg-edge-row {
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  transition: width 300ms, height 300ms;
+}
+
+.sg-edge-top {
+  display: initial;
+  top: 0;
+}
+
+.sg-edge-bottom {
+  display: initial;
+  bottom: 0;
+}
+
+.sg-edge-left {
+  display: initial;
+  left: 0;
+}
+
+.sg-edge-right {
+  display: initial;
+  right: 0;
+}
