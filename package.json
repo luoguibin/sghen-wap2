@@ -14,7 +14,7 @@
     "crypto-js": "^4.0.0",
     "echarts": "^5.0.2",
     "echarts-wordcloud": "^2.0.0",
-    "qs": "^6.10.1",
+    "qs": "^6.9.6",
     "vue": "^3.0.5",
     "vue-json-viewer": "^2.2.18",
     "vue-router": "^4.0.5",
