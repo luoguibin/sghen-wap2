@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import legacy from '@vitejs/plugin-legacy'
-import path from "path"
+import { resolve } from "path"
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -15,10 +15,20 @@ export default defineConfig({
   base: './',
   // esbuild: false,
 
+  // build: {
+  //   rollupOptions: {
+  //     input: {
+  //       main: resolve(__dirname, 'index.html'),
+  //       nested: resolve(__dirname, 'nested/index.html')
+  //     }
+  //   },
+  // },
+
+
   resolve: {
     extensions: ['.js', '.vue', '.json', '.ts'],
     alias: {
-      '@': path.resolve(__dirname, "./src")
+      '@': resolve(__dirname, "./src")
     }
   },
 
