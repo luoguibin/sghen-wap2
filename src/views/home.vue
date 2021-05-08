@@ -62,7 +62,7 @@
                 />
                 <div class="praise-total">
                   <i class="iconfont icon-like"></i>
-                  <span>{{ numFilter(item.praiseTotal) }}</span>
+                  <span>{{ numFilter(item.praiseTotal, true) }}</span>
                 </div>
                 <h2>
                   <span>{{ item.set.name }}</span>
