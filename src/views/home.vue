@@ -246,7 +246,7 @@ export default defineComponent({
         this.sliderIndex = pageData.sliderIndex;
         this.yearPoetrySets = pageData.yearPoetrySets;
         this.yearPeots = pageData.yearPeots;
-        this.popularPeotrySets.values = pageData.popularPeotrySets;
+        this.popularPeotrySets = pageData.popularPeotrySets;
         return true;
       } else {
         return false;
